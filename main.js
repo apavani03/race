@@ -100,6 +100,7 @@ function car1_up()
 		console.log("When up arrow is pressed,  x = " + car1_x + " | y = " +car1_y);
 		 uploadBackground();
 		 uploadcar1();
+		 uploadcar2();
 	}
 }
 function car1_down()
@@ -110,6 +111,7 @@ function car1_down()
 		console.log("When down arrow is pressed,  x = " + car1_x + " | y = " +car1_y);
 		uploadBackground();
 		 uploadrover();
+		 uploadcar2();
 	}
 }
 function car1_left()
@@ -120,6 +122,7 @@ function car1_left()
 		console.log("When left arrow is pressed,  x = " + car1_x + " | y = " +car1_y);
 		uploadBackground();
 		 uploadcar1();
+		 uploadcar2();
 	}
 }
 function car1_right()
@@ -130,6 +133,7 @@ function car1_right()
 		console.log("When right arrow is pressed,  x = " + car1_x + " | y = " +car1_y);
 		uploadBackground();
 		uploadcar1();
+		 uploadcar2();
    }
 }
 
@@ -143,6 +147,7 @@ function car2_up()
 		console.log("When up arrow is pressed,  x = " + car2_x + " | y = " +car2_y);
 		 uploadBackground();
 		 uploadcar2();
+		 uploadcar1();
 	}
 }
 function car2_down()
@@ -153,6 +158,7 @@ function car2_down()
 		console.log("When down arrow is pressed,  x = " + car2_x + " | y = " +car2_y);
 		uploadBackground();
 		 uploadcar2();
+		 uploadcar1();
 	}
 }
 function car2_left()
@@ -163,6 +169,7 @@ function car2_left()
 		console.log("When left arrow is pressed,  x = " + car2_x + " | y = " +car2_y);
 		uploadBackground();
 		 uploadcar2();
+		 uploadcar1();
 	}
 }
 function car2_right()
@@ -173,6 +180,7 @@ function car2_right()
 		console.log("When right arrow is pressed,  x = " + car2_x + " | y = " +car2_y);
 		uploadBackground();
 		uploadcar2();
+		 uploadcar1();
    }
 }
 	
